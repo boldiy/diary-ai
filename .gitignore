@@ -9,6 +9,7 @@ yarn-error.log
 
 # 数据库备份
 *.sql
+!database/schema.sql
 
 # 操作系统文件
 .DS_Store
@@ -24,4 +25,6 @@ temp/
 
 # 部署文件
 diary_app_deploy.zip
-diary_app_full.zip 
+diary_app_full.zip
+diary_app_deploy/
+diary_app_full/ 
